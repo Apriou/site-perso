@@ -6,23 +6,7 @@ import "../css/ProjectList.css";
 
 const projects = [
   //Je met les status Offline par défault pour les projets web. Les projets mobiles => Online
-  {
-    id: 8,
-    title: "Clone de Twitch site de streaming de jeux video",
-    descs: [
-      "Recherche et visualisation de jeux en ligne, de streamers",
-      "Connexion via compte Twitch",
-      "Menu responsive",
-    ],
-    tools: "ReactJS 16, React-router, API Twitch, Twitch Player",
-    logoPath: "./images/react.png",
-    logoDesc: "react",
-    type: "web",
-    //url: "http://apriou.freeboxos.fr:49164/",
-    url: "https://apriou-twitch-clone.herokuapp.com/",
-    //status: "Recherche...",
-    status: "Online",
-  },
+
   {
     id: 7,
     title: "Clone de Twitch site de streaming de jeux video",
