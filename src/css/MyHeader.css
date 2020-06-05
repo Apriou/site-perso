@@ -1,0 +1,79 @@
+.myhearder {
+  /*   background: rgb(92, 107, 94); */
+  /*   Opacité!!! */
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: auto;
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  position: fixed;
+  z-index: 2;
+}
+
+.myhearder-row {
+  display: flex;
+}
+
+.myhearder-menu {
+  width: 20%;
+  color: white;
+  padding-left: 1rem;
+}
+
+.myheader-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 0.2rem;
+  vertical-align: -0.2rem;
+}
+
+.myhearder-menu-icon:hover {
+  cursor: pointer;
+}
+
+.myhearder-search {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  justify-content: center;
+  margin-top: 0.6rem;
+}
+
+.myhearder-input {
+  font-size: 1.3rem;
+  height: 2rem;
+  width: 25rem;
+}
+
+.myhearder-heart {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+  color: white;
+}
+
+.myhearder-cart {
+  width: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  /* padding-right: 2rem; */
+  color: white;
+}
+
+.myhearder-account {
+  width: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  padding-right: 1rem;
+  color: white;
+}

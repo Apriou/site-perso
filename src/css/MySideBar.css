@@ -1,0 +1,15 @@
+.sidebar-div {
+  width: 100%;
+
+  /*  pour automatiser la hauteur de la div qui englobe les projets onglet 3*/
+  height: auto;
+
+  /* pour avoir une hauteur mini sur les 2 premiers onglets */
+  min-height: 100%;
+  background-size: 100%, cover;
+}
+
+.sidebar-img {
+  max-width: 100%;
+  max-height: 100%;
+}

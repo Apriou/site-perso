@@ -1,0 +1,53 @@
+/* .card{
+    width: 15rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+    background: rgba(0, 0, 0, 0.6); 
+    color: yellow;
+}
+
+.card-media{
+    height: 6rem;
+    color: violet;
+} */
+
+.card{
+    width: 18rem;
+   /*  height: 30rem; */
+    min-height: 100%;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.card-img{
+    width: auto;
+    height: 8rem;    
+    
+}
+
+.online{
+    color: green;
+    vertical-align: -0.3rem;
+}
+
+.offline{
+    color: red;
+    vertical-align: -0.3rem;
+}
+
+.download{
+    color:white;
+    cursor: pointer;
+    vertical-align: -0.3rem;
+}
+
+.link{
+    color:white;
+}
+
+
