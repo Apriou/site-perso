@@ -5,8 +5,48 @@ import { getByUrl } from "../utils/GetRequests";
 import "../css/ProjectList.css";
 
 const projects = [
-  //Je met les status Offline par défault pour les projets web. Les projets mobiles => Online
-
+  {
+    id: 10,
+    title: "Application météo",
+    descs: [
+      "Recherche d'une ville dans une google map",
+      "Affichage de sa météo actuelle dans une card que l'utilisateur peut tirer depuis le bas",
+      "Prévisions sur 5 jours et affichage de la température et de l'humidité dans des graphiques",
+      "Connexion facebook",
+      "Envoi de notifications depuis un serveur nodeJS distant",
+    ],
+    tools:
+      "React-Native 2.0.1, Redux, API maps SDK for android de google, librairie Animated (pour tirer la card), expo-chart-kit (pour les graphes), librairies Facebook Permissions et Notifications de expo, NodeJS, expo-server-sdk",
+    logoPath: "./images/react-native.png",
+    logoDesc: "react",
+    type: "mob",
+    url: "./ressources/meteo-map.apk",
+    status: "Online",
+  },
+  {
+    id: 9,
+    title: "Application swipe de cartes",
+    descs: [
+      "Exemple d'application permettant à l'utilisateur de swiper une carte vers la droite ou la gauche",
+    ],
+    tools: "React-Native 2.0.1, JavaScript, librairie Animated",
+    logoPath: "./images/react-native.png",
+    logoDesc: "react",
+    type: "mob",
+    url: "./ressources/fact-card.apk",
+    status: "Online",
+  },
+  {
+    id: 8,
+    title: "Application de recettes de cuisine",
+    descs: ["liste de recettes de cuisine", "Gestion d'un caddie"],
+    tools: "React-Native 2.0.1, JavaScript, React navigation, API SpoonAcular",
+    logoPath: "./images/react-native.png",
+    logoDesc: "react",
+    type: "mob",
+    url: "./ressources/RecettesEtliste.apk",
+    status: "Online",
+  },
   {
     id: 7,
     title: "Clone de Twitch site de streaming de jeux video",
@@ -55,7 +95,7 @@ const projects = [
       "Persistance des données",
     ],
     tools:
-      "React-Native 2.0.1, Redux, React router, JavaScript, API TheMovieDB",
+      "React-Native 2.0.1, JavaScript, Redux, React navigation, API TheMovieDB",
     logoPath: "./images/react-native.png",
     logoDesc: "react native",
     type: "mob",
@@ -66,12 +106,13 @@ const projects = [
     id: 4,
     title: "Application mobile de photos",
     descs: ["Effectuer des photos", "Géolocation", "Persistance des données"],
-    tools: "Ionic 5, TypeScript, API Google Map",
+    tools: "Ionic 5, TypeScript, API Maps javascript de google",
     logoPath: "./images/ionic.jpeg",
     logoDesc: "ionic",
     type: "mob",
-    url: "./ressources/NatureView.apk",
-    status: "Online",
+    //url: "./ressources/NatureView.apk",
+    url: "",
+    status: "Offline",
   },
   {
     id: 3,

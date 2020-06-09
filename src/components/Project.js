@@ -83,12 +83,16 @@ class Project extends Component {
           )} */}
         </p>
         {type === "mob" ? (
-          <p>
-            Version Androïd : &nbsp;&nbsp;
-            <a href={url} download>
-              <GetAppIcon className="download" />
-            </a>
-          </p>
+          url !== "" ? (
+            <p>
+              Version Androïd : &nbsp;&nbsp;
+              <a href={url} download>
+                <GetAppIcon className="download" />
+              </a>
+            </p>
+          ) : (
+            <p />
+          )
         ) : url !== "" ? (
           <p>
             <a href={url} className="link">
